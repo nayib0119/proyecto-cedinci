@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Qahiri&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  
+  
+}
+#header {
+  clear: both;
+}
+header {
+ 
+  background: rgb(138, 3, 3);
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  z-index: 10;
+}
+#logo{
+  display:inline-block;
+  position: relative;
+  width: 60%;
+   clear:both;
+}
+.gif {
+  display: inline-block;
+  position: relative;
+  left:-250px;
+  clear: both;
+  
+}
+.gi {
+   display: inline-block;
+  position: relative;
+  animation: movimiento 3s ease infinite;
+  transform:scale(2,2) rotate(24deg);
+  left:-590px;
+  top: -62px;
+  
+
+}
+.g {
+   display: inline-block;
+  position: relative;
+  animation: movimiento 3s ease infinite;
+  transform:scale(2,2) rotate(24deg);
+  left:-270px;
+  top: -60px;
+
+}
+#logoi{
+  position: relativecen;
+  width: 50px;
+   clear:both;
+   
+   
+   
+}
+
+button {
+  display: inline-block;
+  padding:10px;
+  width: 100px;
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:18px;
+  
+  
+}
+#logoi button:hover {
+  background:rgb(150, 150, 209);
+
+}
+
+#logo img {
+  width: 25%;
+}
+#miHeader #logo {
+  display: inline-block;
+}
+#miHeader #logoi {
+  display:inline-block;
+}
+
+
+
+.barra {
+  margin-top: 2%;
+  background: rgb(235, 101, 101);
+  padding-top: 13%;
+  width: 100%;
+  overflow: hidden;
+  
+}
+.fond {
+  background: black;
+}
+
+nav {
+  float: left;
+  
+
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+nav ul li:hover {
+  background: rgb(0, 0, 0);
+}
+nav ul li a:hover {
+  color: white;
+}
+
+.contenido {
+    
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  bu
+}
+.slider ul {
+  display: flex;
+  padding: 5px;
+  width: 400%;
+
+  animation: transicion 7s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+
+}
+
+.slider img {
+  width: 100%;
+  
+}
+.pasillo {
+  padding: none;
+  margin: 1.2em;
+  border: 4px solid rgb(138, 3, 3);
+  float: left;
+  width: 25%;
+  background: rgb(235, 101, 101);
+}
+.pasillo ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+.pasillo ul li  {
+  display: block;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+}
+.pasillo ul li:hover {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.ubicacion {
+  display: inline-block;
+  width: 70%;
+  border: 4px solid rgb(138, 3, 3);
+}
+
+.foo{
+    border: 4px solid rgb(138, 3, 3);
+    padding:10px;
+    background: rgb(235, 101, 101);
+    width:100%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo a {
+  text-decoration: none;
+  display: inline-block;
+  position: center;
+  color: black;
+}
+.foo a:hover {
+  color: rgb(24, 84, 136);
+}
+@keyframes movimiento  {
+  0% {transform: translate(0px);}
+  5% {transform: translate(5px)}
+  10% {transform: translate(10px)}
+  5% {transform: translate(5px)}
+  0%{transform: translate(0px)}
+}
+
+
+
+@keyframes transicion {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
